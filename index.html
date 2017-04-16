@@ -14,7 +14,6 @@
   };
   firebase.initializeApp(config);
 </script>
-  <script src = "code.js"></script>
 </head>
 <body>
   <h1> Who Am I? </h1>
@@ -22,7 +21,7 @@
 </body>
   <form>
     Enter a value to be stored:
-    <input type="text" name="fname"><br>
+    <input type="text" name="fname" onkeypress="return (testFunction(event)!="><br>
   </form>
-  
+  <script type="text/javascript" src="code.js"></script>
 </html>
