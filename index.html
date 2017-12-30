@@ -19,6 +19,7 @@
   body {
     background-image: url("resources/vintage-leaves.png") !important;
     background-repeat: repeat;
+    padding-top:70px;
   }
   /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
 
@@ -30,60 +31,41 @@
   p {
     color: #000000 !important;
   }
+  .whitebg {
+      background-color: white;
+  }
+  .whiteText {
+      color: white;
+  }
 </style>
 
 <body>
-  <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top" id="topbar">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-       <span class="glyphicon glyphicon-search"></span>
-      </button>
-    <a class="navbar-brand" href="#">Samyak K. G.</a>
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-      <ul class="navbar-nav mr-auto ">
-        <li class="nav-item active">
-          <a class="nav-link" href="#start">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
-        </li>
+  <nav class="navbar fixed-top navbar-inverse bg-inverse" id="topbar">
+    <div class="d-flex flex-row">
+        <a class="navbar-brand" href="#">Samyak K. G.</a>
+        <a class="navbar-brand nav-link nav-item active" href="#Start">About <span class="sr-only">(current)</span></a>
+        <a class="navbar-brand nav-link nav-item" href="#Contact">Contact <span class="sr-only">(current)</span></a>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+          <a class="nav-link dropdown-toggle navbar-brand" href="samkg.github.io" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
           <div class="dropdown-menu" aria-labelledby="dropdown01" style="background-image: url(&quotresources/dark-triangles.png&quot)">
-            <a class="dropdown-item" href="#" style = "color:#ffffff">Action</a>
-            <a class="dropdown-item" href="#" style = "color:#ffffff">Another action</a>
-            <a class="dropdown-item" href="#" style = "color:#ffffff">Something else here</a>
+            <a class="dropdown-item" href="#P1" style = "color:#000000">Connect Four AI</a>
+            <a class="dropdown-item" href="#P2" style = "color:#000000">Battlecode</a>
+            <a class="dropdown-item" href="#P3" style = "color:#000000">Competitive Programming</a>
+            <a class="dropdown-item" href="#P3" style = "color:#000000">CSV Parser</a>
+
           </div>
         </li>
-      </ul>
     </div>
   </nav>
 
-  <div class="container">
-
-    <div class="starter-template">
-      <h1>Samyak K. G.</h1>
-      <p class="lead" id="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing
-        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
-        qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-        ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem
-        ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-        sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <div class="container whitebg starter-template">
+      <h1 class="text-center" id="Start">Samyak K. G.</h1>
+      <h2>Hey There!</h2>
+      <p class="lead" id="lead"> I'm a programmer, teacher, and student. I study computer science and mathematics at Rutgers University, New-Brunswick. I also teach recitations for CS111, as a learning assistant.
       </p>
+      <h2 id="Contact">Let's Talk</h2>
+      <p class="lead" id="lead"> You can reach me at samyak.k.gupta@rutgers.edu</p>
     </div>
-
-  </div>
   <!-- /.container -->
 
 
@@ -94,7 +76,6 @@
   <script>
     window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
   </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <script src="dist/js/bootstrap.min.js"></script>
   <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 </body>
