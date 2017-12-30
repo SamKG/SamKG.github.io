@@ -2,82 +2,142 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="Samyak K. Gupta">
-  <link rel="icon" href="resources/favicon.ico">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Samyak K. Gupta">
+    <link rel="icon" href="resources/favicon.ico">
 
-  <title>Samyak K. G.</title>
+    <title>Samyak K. G.</title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Custom styles for this template -->
+    <!-- Custom styles for this template -->
 </head>
 <style type="text/css">
-  body {
-    background-image: url("resources/vintage-leaves.png") !important;
-    background-repeat: repeat;
-    padding-top:70px;
-  }
-  /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+    body {
+        background-image: url("resources/vintage-leaves.png") !important;
+        background-repeat: repeat;
+        padding-top: 70px;
+    }
+    /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
 
-  nav {
-    background-image: url("resources/dark-triangles.png") !important;
-    background-repeat: repeat;
-  }
+    nav {
+        background-image: url("resources/dark-triangles.png") !important;
+        background-repeat: repeat;
+    }
 
-  p {
-    color: #000000 !important;
-  }
-  .whitebg {
-      background-color: white;
-  }
-  .whiteText {
-      color: white;
-  }
+    p {
+        color: #000000 !important;
+    }
+
+    .whitebg {
+        background-color: white;
+    }
+
+    .whiteText {
+        color: white;
+    }
+
+    .lead {
+        font-size: 25px;
+        font-
+    }
+
+    ,
+    .container {
+        max-width: 970px;
+    }
+    .navbar-brand{
+        color: #ffffff !important;
+    }
 </style>
 
 <body>
-  <nav class="navbar fixed-top navbar-inverse bg-inverse" id="topbar">
-    <div class="d-flex flex-row">
-        <a class="navbar-brand" href="#">Samyak K. G.</a>
-        <a class="navbar-brand nav-link nav-item active" href="#Start">About <span class="sr-only">(current)</span></a>
-        <a class="navbar-brand nav-link nav-item" href="#Contact">Contact <span class="sr-only">(current)</span></a>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle navbar-brand" href="samkg.github.io" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
-          <div class="dropdown-menu" aria-labelledby="dropdown01" style="background-image: url(&quotresources/dark-triangles.png&quot)">
-            <a class="dropdown-item" href="#P1" style = "color:#000000">Connect Four AI</a>
-            <a class="dropdown-item" href="#P2" style = "color:#000000">Battlecode</a>
-            <a class="dropdown-item" href="#P3" style = "color:#000000">Competitive Programming</a>
-            <a class="dropdown-item" href="#P3" style = "color:#000000">CSV Parser</a>
+    <nav class="navbar fixed-top navbar-inverse bg-inverse" id="topbar">
+        <div class="d-flex flex-row">
+            <a class="navbar-brand" href="#">Samyak K. G.</a>
+            <a class="navbar-brand nav-link nav-item active" href="#Start">About <span class="sr-only">(current)</span></a>
+            <li class="nav-item  dropdown">
+                <a class="nav-link dropdown-toggle navbar-brand" href="samkg.github.io" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01" style="background-image: url(&quotresources/dark-triangles.png&quot)">
+                    <a class="dropdown-item" href="#P1" style="color:#000000">Connect Four AI</a>
+                    <a class="dropdown-item" href="#P2" style="color:#000000">Battlecode</a>
+                    <a class="dropdown-item" href="#P3" style="color:#000000">Competitive Programming</a>
+                    <a class="dropdown-item" href="#P3" style="color:#000000">CSV Parser</a>
 
-          </div>
-        </li>
+                </div>
+            </li>
+            <a class="navbar-brand nav-link nav-item" href="#Contact">Contact</a>
+        </div>
+    </nav>
+
+    <div class="whitebg d-flex flex-column">
+        <div class="align-middle w-100">
+            <h2 id="Start" class="text-center">Hi, My Name is Sam.</h2></div>
+        <div>
+            <hr>
+        </div>
+        <div class="container justify-content-end">
+            <p class="lead" id="lead">I am a programmer, teacher, and student. <br> Currently, I study computer science and mathematics at Rutgers University, New-Brunswick. I also teach recitations for CS111, as a learning assistant.
+            </p>
+        </div>
+        <div><hr></div>
+        <div class="align-middle w-100">
+            <h2 id="Projects" class="text-center">Here's Some Stuff I've Done</h2></div>
+        <div>
+            <hr>
+        </div>
+        <div class="container">
+            <p class="lead text-left" id="lead">
+                <h3>Personal Projects</h3>
+                <div>
+                    <a href="https://github.com/SamKG/ConnectFourAI"><h5>Connect Four AI</h5></a>
+                    <div style="padding-left:5em">I made an intelligent AI in Java, that can play Connect Four.</div>
+                </div>
+                <div>
+                    <a href="https://github.com/SamKG/Battlecode-2017"><h5>Battlecode</h5></a>
+                    <div style="padding-left:5em">I also participate in a yearly competition hosted by MIT, called Battlecode</div>
+                </div>
+                <div>
+                    <a href="https://github.com/SamKG/CSV-Parser"><h5>CSV Parser</h5></a>
+                    <div style="padding-left:5em">I wrote a multithreaded, client-server CSV parser in C</div>
+                </div>
+                <br>
+                <h3>Hackathon Projects</h3>
+                    <div>
+                        <a href="https://devpost.com/software/diabetes-diagnose-box"><h5>Amazon Alexa Diabetes Diagnosis App</h5></a>
+                        <div style="padding-left:5em">I won the "Best Usage of Amazon Web Services Prize" for designing an Amazon Alexa app that can help you determine if you are at risk for Diabetes</div>
+                    </div>
+                <br>
+                <br>
+                <br>
+            </p>
+        </div>
+        <div><hr></div>
+        <div class="align-middle w-100">
+            <h2 id="Contact" class="text-center">Let's get in touch</h2></div>
+        <div>
+            <hr>
+        </div>
+        <div class="container">
+            <p class="lead text-center" id="lead">You can reach me at <a href="mailto:samyak.k.gupta@rutgers.edu">samyak.k.gupta@rutgers.edu</a>
+            </p>
+        </div>
     </div>
-  </nav>
-
-    <div class="container whitebg starter-template">
-      <h1 class="text-center" id="Start">Samyak K. G.</h1>
-      <h2>Hey There!</h2>
-      <p class="lead" id="lead"> I'm a programmer, teacher, and student. I study computer science and mathematics at Rutgers University, New-Brunswick. I also teach recitations for CS111, as a learning assistant.
-      </p>
-      <h2 id="Contact">Let's Talk</h2>
-      <p class="lead" id="lead"> You can reach me at samyak.k.gupta@rutgers.edu</p>
-    </div>
-  <!-- /.container -->
+    <!-- /.container -->
 
 
-  <!-- Bootstrap core JavaScript
+    <!-- Bootstrap core JavaScript
     ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-  <script>
-    window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
-  </script>
-  <script src="dist/js/bootstrap.min.js"></script>
-  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script>
+        window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+    </script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 </body>
 
 </html>
